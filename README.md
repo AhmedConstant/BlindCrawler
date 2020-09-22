@@ -1,6 +1,6 @@
 # BlindCrawler - Beta v1.0
 ![alt text](https://github.com/AhmedConstant/ImagesV/blob/master/blindcrawler-logo-github.png "BlindCrawler")<br/>
-A tool for web crawling &amp; content discovery
+A tool for web crawling &amp; content discovery.
 # Installation
 `git clone https://github.com/AhmedConstant/BlindCrawler.git`<br/>
 
@@ -26,12 +26,14 @@ A tool for web crawling &amp; content discovery
   * Crawle /sitemap.xml for more URLs to crawle.
   * Use web archive CDX API to get more URLs to crawle.
 * Output
+![Runtime](https://github.com/AhmedConstant/ImagesV/blob/master/blindcrawler-runtime.png)
   * A file with all **crawled** URLs
   * A file with all **paths** crawled
   * A file with **subdomains** discovered.
   * A file with **schemes** discovered.
   * A file with **emails** discovered.
-  * a file with **comments** discovered
+  * a file with **comments** discovered<br />
+![Runtime](https://github.com/AhmedConstant/ImagesV/blob/master/blindcrawler-output-dirs.png)
 * Performance
   * There will be a continuous process **to make performance as fast as possible** 
 * Design
