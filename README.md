@@ -1,21 +1,21 @@
 # BlindCrawler
 A tool for web crawling &amp; content discovery
 # Installation
-`git clone https://github.com/AhmedConstant/BlindCrawler.git`\
+`git clone https://github.com/AhmedConstant/BlindCrawler.git`<br/>
 
-`cd /BlindCrawler`\
+`cd /BlindCrawler`<br/>
 
-`pip install requirements.txt
+`pip install requirements.txt`<br/>
 
 # Usage
-### basic usage with domain
-`BlindCrawler.py -s https://domain.com`\
-### basic usage with subdomain
-`BlindCrawler.py -s https://sub.domain.com/path`\
-### basic usage with random agents
-`BlindCrawler.py -s https://sub.domain.com/path --random-agents`\
-### basic usage with cookies
-`BlindCrawler.py -s https://sub.domain.com/path -c "key: value; key:value"`\
+### domain
+`BlindCrawler.py -s https://domain.com`<br/>
+### subdomain
+`BlindCrawler.py -s https://sub.domain.com/path`<br/>
+### random agents
+`BlindCrawler.py -s https://sub.domain.com/path --random-agents`<br/>
+### with cookies
+`BlindCrawler.py -s https://sub.domain.com/path -c "key: value; key:value"`<br/>
 # Features
 # To-Do List
 # The Author
