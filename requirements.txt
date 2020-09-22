@@ -2,3 +2,4 @@ argparse
 re
 requests
 os
+pyfiglet
