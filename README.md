@@ -21,10 +21,10 @@ A tool for web crawling &amp; content discovery
 # Features
 ![Runtime](https://github.com/AhmedConstant/ImagesV/blob/master/blindcrawler-output.png)
 * Process
- * Crawle the subdomains to expand the discovery surface.
- * Crawle /robot.txt for more URLs to crawle.
- * Crawle /sitemap.xml for more URLs to crawle.
- * Use web archive CDX API to get more URLs to crawle.
+  * Crawle the subdomains to expand the discovery surface.
+  * Crawle /robot.txt for more URLs to crawle.
+  * Crawle /sitemap.xml for more URLs to crawle.
+  * Use web archive CDX API to get more URLs to crawle.
 * Output
   * A file with all **crawled** URLs
   * A file with all **paths** crawled
