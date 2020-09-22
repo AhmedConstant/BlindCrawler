@@ -20,6 +20,11 @@ A tool for web crawling &amp; content discovery
 ### with cookies
 `BlindCrawler.py -s https://sub.domain.com/path -c "key: value; key:value"`<br/>
 # Features
+* Process
+ * Crawle the subdomains to expand the discovery surface.
+ * Crawle /robot.txt for more URLs to crawle.
+ * Crawle /sitemap.xml for more URLs to crawle.
+ * Use web archive CDX API to get more URLs to crawle.
 * Output
   * A file with all **crawled** URLs
   * A file with all **paths** crawled
@@ -35,6 +40,8 @@ A tool for web crawling &amp; content discovery
   * **Easy to edit** the script code
 # To-Do List
 - [x] ~~Relase beta version.~~
+- [ ] Output in JSON, XML and CSV formats.
+- [ ] Bruteforce for the sensitive files and directories.
 - [ ] Extract **strings with high entropy** from crawled pages. [UUID, Key..etc]
 - [ ] Recognize the **static/repetitive** Urls to avoid crawling it & reduce time and resources.
 - [ ] Let the user provide its own **pattern** to extract from crawled pages.
