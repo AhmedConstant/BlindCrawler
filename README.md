@@ -6,19 +6,19 @@ A tool for web crawling &amp; content discovery
 
 `cd /BlindCrawler`<br/>
 
-`pip install requirements.txt`<br/>
+`sudo pip3 install requirements.txt`<br/>
 
 # Usage
 ![Runtime](https://github.com/AhmedConstant/Images/blob/master/blindcrawler-github.png)
 ![Runtime](https://github.com/AhmedConstant/Images/blob/master/Snap%202020-09-22%20at%2014.54.34.png)
 ### domain
-`BlindCrawler.py -s https://domain.com`<br/>
+`python3 BlindCrawler.py -s https://domain.com`<br/>
 ### subdomain
-`BlindCrawler.py -s https://sub.domain.com/path`<br/>
+`python3 BlindCrawler.py -s https://sub.domain.com/path`<br/>
 ### random agents
-`BlindCrawler.py -s https://sub.domain.com/path --random-agents`<br/>
+`python3 BlindCrawler.py -s https://sub.domain.com/path --random-agents`<br/>
 ### with cookies
-`BlindCrawler.py -s https://sub.domain.com/path -c "key: value; key:value"`<br/>
+`python3 BlindCrawler.py -s https://sub.domain.com/path -c "key: value; key:value"`<br/>
 # Features
 * Process
  * Crawle the subdomains to expand the discovery surface.
