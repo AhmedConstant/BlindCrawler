@@ -50,7 +50,7 @@ def main():
     )
 
     ########>> Stage 4: runtime report:
-    print("\033[1;31;40m #" * 60)
+    print("\033[1;31;40m #" * 60, end='')
     print("\033[1;37;40m Number of crawled pages: \033[1;31;40m" + str(len(crawler.crawled)))
     print("\033[1;37;40m Number of schemes: \033[1;31;40m" + str(len(crawler.schemes)))
     print("\033[1;37;40m Number of Subdomains: \033[1;31;40m" + str(len(crawler.subdomains)))
