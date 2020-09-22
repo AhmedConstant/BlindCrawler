@@ -1,5 +1,5 @@
 # BlindCrawler - Beta v1.0
-![alt text](https://github.com/AhmedConstant/Images/blob/master/blindcrawler-logo-github.png "BlindCrawler")<br/>
+![alt text](https://github.com/AhmedConstant/ImagesV/blob/master/blindcrawler-logo-github.png "BlindCrawler")<br/>
 A tool for web crawling &amp; content discovery
 # Installation
 `git clone https://github.com/AhmedConstant/BlindCrawler.git`<br/>
@@ -9,8 +9,7 @@ A tool for web crawling &amp; content discovery
 `sudo pip3 install requirements.txt`<br/>
 
 # Usage
-![Runtime](https://github.com/AhmedConstant/Images/blob/master/blindcrawler-github.png)
-![Runtime](https://github.com/AhmedConstant/Images/blob/master/Snap%202020-09-22%20at%2014.54.34.png)
+![Runtime](https://github.com/AhmedConstant/ImagesV/blob/master/blindcrawler-usges-github.png)
 ### domain
 `python3 BlindCrawler.py -s https://domain.com`<br/>
 ### subdomain
@@ -20,6 +19,7 @@ A tool for web crawling &amp; content discovery
 ### with cookies
 `python3 BlindCrawler.py -s https://sub.domain.com/path -c "key: value; key:value"`<br/>
 # Features
+![Runtime](https://github.com/AhmedConstant/ImagesV/blob/master/blindcrawler-output.png)
 * Process
  * Crawle the subdomains to expand the discovery surface.
  * Crawle /robot.txt for more URLs to crawle.
