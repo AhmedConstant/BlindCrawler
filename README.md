@@ -1,4 +1,4 @@
-# BlindCrawler
+# BlindCrawler - Beta v1.0
 ![alt text](https://github.com/AhmedConstant/Images/blob/master/blindcrawler-logo-github.png "BlindCrawler")<br/>
 A tool for web crawling &amp; content discovery
 # Installation
