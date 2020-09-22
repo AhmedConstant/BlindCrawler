@@ -21,17 +21,18 @@ A tool for web crawling &amp; content discovery
 `BlindCrawler.py -s https://sub.domain.com/path -c "key: value; key:value"`<br/>
 # Features
 * Output
-  * A file with all crawled URLs
-  * A file with subdomains discovered.
-  * A file with schemes discovered.
-  * A file with emails discovered.
-  * a file with comments discovered
+  * A file with all **crawled** URLs
+  * A file with all **paths** crawled
+  * A file with **subdomains** discovered.
+  * A file with **schemes** discovered.
+  * A file with **emails** discovered.
+  * a file with **comments** discovered
 * Performance
-  * There will be a continuous process to make performance as fast as possible 
+  * There will be a continuous process **to make performance as fast as possible** 
 * Design
-  * OOP Design
-  * Good Documentation.
-  * Easy to edit the script code
+  * **OOP** Design
+  * Good **Documentation**.
+  * **Easy to edit** the script code
 # To-Do List
 - [x] ~~Relase beta version.~~
 - [ ] Extract **strings with high entropy** from crawled pages. [UUID, Key..etc]
