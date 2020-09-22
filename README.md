@@ -33,7 +33,7 @@ A tool for web crawling &amp; content discovery
   * Good Documentation.
   * Easy to edit the script code
 # To-Do List
-- [x] Relase beta version.
+- [x] ~~Relase beta version.~~
 - [ ] Extract **strings with high entropy** from crawled pages. [UUID, Key..etc]
 - [ ] Recognize the **static/repetitive** Urls to avoid crawling it & reduce time and resources.
 - [ ] Let the user provide its own **pattern** to extract from crawled pages.
@@ -42,5 +42,5 @@ A tool for web crawling &amp; content discovery
 - [ ] **Fuzzing** the GET Parameters.
 - [ ] .....
 # The Author
-Ahmed Constant<br/>
+Ahmed Constant
 [Twitter](https://twitter.com/a_Constant_)
